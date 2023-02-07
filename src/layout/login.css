@@ -1,0 +1,161 @@
+.bodycss{
+    display: flex;
+}
+
+.loginboxset{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    
+    /* height: 380px;
+	max-width: 350px; */
+}
+.loginbox {
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+}
+
+.loginlogo {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    width: 175px;
+    height: 60px;
+}
+
+.loginform {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+    align-items: stretch;
+    margin-top: 24px;
+}
+
+.separatelogin{
+    margin: 0 40px 6px;
+}
+
+.inputid{
+    padding: 9px 0 7px 8px;
+    font-size: 12px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    width: 268px;
+    background-color: #FAFAFA;
+}
+
+.loginbuttondiv{
+    margin-top: calc(4px * 2);
+    margin-right: calc(4px * 10);
+    margin-left: calc(4px * 10);
+    margin-bottom: calc(4px * 2);
+}
+
+
+.loginbutton{
+    width: 280px;
+    height: 32px;
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.orlinediv{
+    flex-direction: row;
+    display: flex;
+    margin: 10px 40px 18px;
+}
+
+.orlineside{
+    position: relative;
+    top: 0.45em;
+    height: 1px;
+    flex-grow: 1;
+    background-color: rgb(219, 219, 219);
+}
+
+.orline {
+    background-color: white;
+    /* align-items: center; */
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-weight: bold;
+}
+
+.facebooklogindiv{
+    text-align: center;
+}
+
+.facebookbutton{
+    border: 0;
+    /* color: rgb(0, 149, 246); */
+    background: none;
+
+}
+
+.facebookloginlogo{
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.facebooklogin{
+    color: #385185;
+    font-weight: 600;
+}
+
+.pwreset{
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.addbox {
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+	max-width: 350px;
+}
